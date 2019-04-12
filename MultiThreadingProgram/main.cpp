@@ -1,20 +1,19 @@
-#include<iostream>
-#include<string>
-#include"chapter-01/Test01.h"
-#include"chapter-02/Test02.h"
-
+#include <iostream>
+#include <string>
+#include "chapter-practice/ThreadPool.h"
 
 int main(int argc, char *argv[])
 {
-	std::vector<char> tmp;
-	for (uint64_t i = 0; i < UINT32_MAX; ++i)
+	auto f = []()
 	{
-		tmp.push_back(0);
-	}
+		std::cout << "test: thread;" << "\n";
+		std::string result = "result";
+		return result;
+	};
 
-	uint64_t result = std::accumulate(tmp.begin(), tmp.end(), 0ull);
+	auto ret = Pool().addOnce(f);
 
-	//unsigned long long result = parallel_accumulate<std::vector<int>::iterator, unsigned long long>(tmp.begin(), tmp.end(), 0ULL);
+	auto result = ret.get();
 
 	std::cout << result << std::endl;
 

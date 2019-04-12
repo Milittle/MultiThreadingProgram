@@ -48,6 +48,18 @@
     <ClCompile Include="chapter-03\Test03.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="chapter-03\3_1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter-03\3_2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter-03\stack_3_3.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter-practice\ThreadPool.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="chapter-01\Test01.h">
@@ -59,6 +71,12 @@
     <ClInclude Include="chapter-03\Test03.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="chapter-03\stack_3_3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="chapter-practice\ThreadPool.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="chapter-01\ATTENTION.md" />
@@ -67,5 +85,6 @@
     <None Include="chapter-02\2_2_ATTENTION.md" />
     <None Include="chapter-03\ATTENTION.md" />
     <None Include="chapter-03\3_1_ATTENTION.md" />
+    <None Include="chapter-03\3_2_ATTENTION.md" />
   </ItemGroup>
 </Project>
