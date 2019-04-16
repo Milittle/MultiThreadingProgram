@@ -131,6 +131,7 @@
     <ClCompile Include="chapter-02\2_2_1.cpp" />
     <ClCompile Include="chapter-03\3_1.cpp" />
     <ClCompile Include="chapter-03\3_2.cpp" />
+    <ClCompile Include="chapter-practice\DynamicThreadPool.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="chapter-01\Test01.cpp" />
     <ClCompile Include="chapter-02\Test02.cpp" />
@@ -144,6 +145,7 @@
     <ClInclude Include="chapter-03\Test03.h" />
     <ClInclude Include="chapter-03\stack_3_3.h" />
     <ClInclude Include="chapter-practice\ThreadPool.h" />
+    <ClInclude Include="chapter-practice\DynamicThreadPool.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="chapter-01\ATTENTION.md" />

@@ -60,6 +60,9 @@
     <ClCompile Include="chapter-practice\ThreadPool.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="chapter-practice\DynamicThreadPool.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="chapter-01\Test01.h">
@@ -75,6 +78,9 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="chapter-practice\ThreadPool.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="chapter-practice\DynamicThreadPool.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
